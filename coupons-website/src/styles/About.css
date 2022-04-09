@@ -1,0 +1,310 @@
+.page-section {
+  padding: 6rem 0;
+  background-color: rgb(219, 204, 204);
+}
+
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+
+.about {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+
+.about:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+
+.about>li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+
+.about>li:after, .about>li:before {
+  display: table;
+  content: " ";
+}
+
+.about>li:after {
+  clear: both;
+}
+
+.about>li .about-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+
+.about>li .about-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+
+.about>li .about-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+
+.about>li .about-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #ca9b01;
+  ;
+}
+
+.about>li .about-image h4, .about>li .about-image .h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+
+.about>li.about-inverted>.about-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+
+.about>li.about-inverted>.about-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+
+.about>li.about-inverted>.about-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+
+.about>li:last-child {
+  margin-bottom: 0;
+}
+
+.about .about-heading h4, .about .about-heading .h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.about .about-heading h4.subheading, .about .about-heading .subheading.h4 {
+  text-transform: none;
+}
+
+.about .about-body>ul,
+.about .about-body>p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .about:before {
+    left: 50%;
+  }
+
+  .about>li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+
+  .about>li .about-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+
+  .about>li .about-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+
+  .about>li .about-image h4, .about>li .about-image .h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+
+  .about>li.about-inverted>.about-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .about>li {
+    min-height: 150px;
+  }
+
+  .about>li .about-panel {
+    padding: 0 20px 20px;
+  }
+
+  .about>li .about-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+
+  .about>li .about-image h4, .about>li .about-image .h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+
+  .about>li.about-inverted>.about-panel {
+    padding: 0 20px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about>li {
+    min-height: 170px;
+  }
+
+  .about>li .about-panel {
+    padding: 0 20px 20px 100px;
+  }
+
+  .about>li .about-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+
+  .about>li .about-image h4, .about>li .about-image .h4 {
+    margin-top: 40px;
+  }
+
+  .about>li.about-inverted>.about-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}

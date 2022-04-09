@@ -1,0 +1,85 @@
+.coupon_card-card {
+    margin: 8% 3% 1% 5%;
+    font-family: cursive;
+}
+
+.coupon_card-card .coupon_card-fields {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bolder;
+    margin-right: 0.5em;
+}
+
+.coupon_card-card .coupon_card-title {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bolder;
+    text-align: center;
+    color: darkgreen;
+}
+
+.coupon_card-card .coupon_card-image {
+    height: 16em;
+    padding: 1.5em;
+    object-fit: cover;
+}
+
+.coupon_card-card .delete_btn {
+    float: right;
+    background-color: transparent;
+    border: none;
+}
+
+.coupon_card-card .add_btn {
+    float: right;
+    border: none;
+}
+
+.no_coupons {
+    height: 20em;
+    background-image: url('../assets/img/backgrounds/0-background-35285.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 4%;
+}
+
+.filter_bar {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.filter_bar .category_btn, .filter_bar .price_btn {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: transparent;
+    border: 0.3em solid rgb(218, 255, 214);
+    margin-right: 1em;
+    font-size: x-large;
+    color: darkgreen;
+}
+
+.filter_bar .clear_btn {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: transparent;
+    border: 0.3em solid rgb(255, 189, 189);
+}
+
+.filter_bar .price_btn:hover, .category_btn:hover {
+    color: rgb(7, 199, 0);
+}
+
+.filter_bar .clear_btn:hover {
+    color: rgb(255, 0, 0);
+}
+
+.filter_bar .filter_state {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-right: 1em;
+    color: rgb(145, 145, 145);
+}
+
+.loading {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 5em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgb(19, 129, 19);
+}

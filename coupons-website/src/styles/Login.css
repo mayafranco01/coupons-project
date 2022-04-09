@@ -1,0 +1,63 @@
+.login-page {
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.login-bg_image {
+    /* the image used */
+    background-image: url('../assets/img/backgrounds/background-309-3872x2592.jpg');
+
+    /* add the blur effect */
+    filter: blur(0.5em);
+    -webkit-filter: blur(0.5em);
+
+    /* center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 1em;
+    width: 30%;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 78%;
+    padding: 1.25em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 2%;
+}
+
+.login-form .login_btn {
+    float: left;
+    box-shadow: 0 0.375em 0.375em rgba(0, 0, 0, 0.6);
+}
+
+.reset-btn {
+    float: right;
+    box-shadow: 0 0.375em 0.375em rgba(0, 0, 0, 0.6);
+}

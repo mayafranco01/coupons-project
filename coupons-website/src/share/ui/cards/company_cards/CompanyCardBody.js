@@ -1,0 +1,49 @@
+import React from 'react';
+
+// import Card from react-bootstrap to create a company view card
+import { Card } from 'react-bootstrap';
+
+// import our custom css 
+import '../../../../styles/Card.css';
+
+// this component receives a company object property to create a card view of a company depending on different needs 
+const CompanyCardBody = ({ company }) => {
+
+    if (!company) {
+        return (
+            <div className='card_name'>loading...</div>
+        );
+    };
+
+    return (
+        <div>
+            <Card.Title
+                className='card_name'
+                title='Company Name'
+            >
+                {company.name}
+            </Card.Title>
+            <Card.Text title='ID'>
+                <span className='card_fields'>
+                    ID:
+                </span>
+                {company.id}
+            </Card.Text>
+            <Card.Text title='Email'>
+                <span className='card_fields'>
+                    Email:
+                </span>
+                <br />
+                {company.email}
+            </Card.Text>
+            <Card.Text title='Password'>
+                <span className='card_fields'>
+                    Password:
+                </span>
+                {company.password}
+            </Card.Text>
+        </div>
+    );
+};
+
+export default CompanyCardBody;

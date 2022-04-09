@@ -1,0 +1,56 @@
+.card-page {
+    background-image: url('../assets/img/backgrounds/bm3lnPt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container {
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-container .card {
+    float: left;
+    display: flex;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    width: 14.5em;
+    height: 18em;
+    margin: 8% 8% 1% 10%;
+    color: darkgreen;
+    background-image: url('../assets/img/backgrounds/798-200x200.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .card_name {
+    color: darkgreen;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8%;
+    padding-bottom: 10%;
+}
+
+.card .card_fields {
+    font-weight: bolder;
+    margin-right: 0.5em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card .search_btn {
+    background-color: transparent;
+    color: green;
+    border: none;
+    margin-left: 35%;
+}
+
+.card .delete_btn {
+    float: right;
+    background-color: transparent;
+    color: red;
+    border: none;
+}
